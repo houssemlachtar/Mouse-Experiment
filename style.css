@@ -3,7 +3,11 @@
 html,
 body {
     background: #111;
+    overflow: hidden;
 }
+ * {
+      touch-action: manipulation;
+  }
 
 #container {
     background: #111;
